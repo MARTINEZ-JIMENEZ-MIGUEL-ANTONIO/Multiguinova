@@ -1,0 +1,245 @@
+body
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+.div001
+{
+    background-image: url(https://kalhec.com/kalhec/wp-content/uploads/2019/03/fondo-contacto.png);
+    padding: 7%;
+    text-align: center;
+}
+
+.div001 h1
+{
+    font-family: 'Courier New';
+    font-size: 160%;
+    border-bottom: 0px solid #333333;
+    padding-bottom: 0px;
+    color: #ff9100;
+}
+
+.div001 h2
+{
+    font-family: calibri;
+    font-size: 140%;
+    color: white;
+}
+
+.div01
+{
+    background-color: #212121;
+    padding: 1% 8%;
+}
+
+.div01 article
+{
+    width: 100%;
+    height: auto;
+}
+
+.div01 iframe
+{
+    background-size: cover;
+    width: 100%;
+    border: 3px solid #212121;
+    border-radius: 10px;
+    height: 40vh;
+}
+
+.div02
+{
+    background-image: linear-gradient(
+        0deg,
+        rgb(19, 22, 54, .5),
+        rgb(19, 22, 54, .5)
+    )
+    ,url(https://static.vecteezy.com/system/resources/previews/006/893/258/non_2x/compass-on-the-background-old-world-map-vintage-style-geo-navigation-concept-free-photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2%;
+}
+
+.div02 article
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.div02 h1
+{
+    font-family: monospace;
+    font-size: 210%;
+    border-bottom: 3px solid #070707;
+    padding-bottom: 7px;
+    width: 50%;
+    color: white;
+}
+
+.div02 h2
+{
+    font-family: calibri;
+    font-size: 130%;
+    color: #cfcfcf;
+}
+
+.div03
+{
+    background-color: #212121;
+    padding: 0% 8%;
+}
+
+.div03 section
+{
+    background-image: linear-gradient(
+        0deg,
+        rgba(10, 10, 10, 0.6),
+        rgb(10, 10, 10, 0.6)
+    )
+    ,url(https://miro.medium.com/max/1400/1*28_4azQSB-ulRp5HwRWA2g.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 1% 0%;
+}
+
+.div03 article
+{
+    width: 40%;
+}
+
+.div03 h1
+{
+    font-family: monospace;
+    font-size: 180%;
+    color: #ff9100;
+    border-bottom: 3px solid #ff0000;
+    padding-bottom: 7px;
+    width: 30%;
+}
+
+.div03 h2
+{
+    font-family: calibri;
+    font-size: 110%;
+    width: auto;
+    text-align: left;
+    padding: 0% 10%;
+    color: white;
+}
+
+.div03 input
+{
+    width: 85%;
+    padding: 1%;
+    background-color: transparent;
+    font-family: monospace;
+    text-align: center;
+    font-size: 110%;
+    border: 2px solid #ff9100;
+    transition: all .4s linear;
+    color: white;
+}
+
+.div03 input:hover
+{
+    border: 2px solid #ff0000;
+    color: #198d0c;
+}
+
+.div03 input:focus 
+{
+    outline: none;
+}
+
+.div03 textarea
+{
+    width: 85%;
+    padding: 1%;
+    background-color: transparent;
+    font-family: monospace;
+    text-align: center;
+    font-size: 110%;
+    border: 2px solid #ff9100;
+    transition: all .4s linear;
+    color: white;
+}
+
+.div03 textarea:hover
+{
+    border: 2px solid #ff0000;
+    color: #198d0c;
+}
+
+.div03 textarea:focus 
+{
+    outline: none;
+}
+
+
+.div03 button
+{
+    text-decoration: none;
+    color: white;
+    font-size: 90%;
+    font-family: verdana;
+    background-color: transparent;
+    padding: 3% 5%;
+    border: 2px solid #e44d11;
+    transition: all .4s linear;
+}
+
+.div03 button:hover
+{
+    color: #e44d11;
+    font-size: 90%;
+    font-family: verdana;
+    background-color: rgb(33, 33, 33, .5);
+    padding: 3% 5%;
+    border: 2px solid #ff0000;
+}
+
+
+
+
+
+
+@media (min-width:0px) and (max-width: 900px)
+{
+    .div01
+    {
+        background-color: #212121;
+        padding: 1% 1%;
+    }
+
+    .div01 iframe
+    {
+        width: 98%;
+        border: 3px solid #212121;
+        border-radius: 10px;
+        height: 40vh;
+    }
+
+    .div02 h2
+    {
+        font-family: calibri;
+        font-size: 100%;
+        color: #cfcfcf;
+    }
+    
+
+    .div03
+    {
+        background-color: #212121;
+        padding: 0% 0%;
+    }
+
+    .div03 article
+    {
+        width: 80%;
+    }
+}
