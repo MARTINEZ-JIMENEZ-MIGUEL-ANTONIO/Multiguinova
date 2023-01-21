@@ -1,0 +1,260 @@
+body
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+aside
+{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(
+        0deg,
+        rgb(19, 22, 54, .4),
+        rgb(19, 22, 54, .4)
+    )
+    ,url(img/img2-fondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+aside article
+{
+    padding: 8% 32%;
+    text-align: center;
+}
+
+aside h1
+{
+    font-family: 'Courier New';
+    font-size: 160%;
+    border-bottom: 0px solid #333333;
+    padding-bottom: 0px;
+    color: #ff9100;
+    width: 70%;
+}
+
+aside h2
+{
+    font-family: calibri;
+    font-size: 140%;
+    color: white;
+}
+
+.div01
+{
+    background-color: #1a1a1a;
+    padding: 0% 8%;
+}
+
+.div01 article
+{
+    background-color: white;
+    width: auto;
+    padding: 1% 7%;
+    display: block;
+}
+
+.article-span1
+{
+    font-family: Verdana;
+    font-size: 100%;
+    
+}
+
+.div01 h1
+{
+    font-family: monospace;
+    font-size: 180%;
+    color: #ff9100;
+    border-bottom: 3px solid #070707;
+    padding-bottom: 7px;
+    width: 82%;
+}
+
+.div01 h2
+{
+    font-family: calibri;
+    font-size: 100%;
+    width: 80%;
+    color: #5e5e5e;
+}
+
+.div01 h3
+{
+    font-family: calibri;
+    font-size: 110%;
+    width: 80%;
+    color: #ff0000;
+}
+
+.div01 h4
+{
+    font-family: calibri;
+    font-size: 110%;
+    width: 80%;
+    color: #0a0a0a;
+}
+
+.div02
+{
+    padding: 2%;
+    background-image: linear-gradient(
+        0deg,
+        rgba(24, 25, 37, 0.4),
+        rgba(24, 25, 37, 0.4)
+    )
+    ,url(https://xa-cs.com.ar/uploads/monthly_2018_06/774604.jpg.270867accd2aecc46ea950248aa35e2d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div02 article
+{
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    transition: all .4s linear;
+}
+
+.div02 article:hover
+{
+    color: #ff9100;
+}
+
+.div03
+{
+    background-color: #1a1a1a;
+    padding: 0% 25%;
+}
+
+.div03 article
+{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 550px;
+    padding: 1% 7%;
+    animation: changeimagen 90s infinite;
+}
+
+@keyframes changeimagen
+{
+    0%{background-image: url(img/ncr.png)}
+    8.3%{background-image: url(img/diebold-nixdorf.png);}
+    16.6%{background-image: url(img/wincord-nixdorf.png);}
+    24.9%{background-image: url(img/grg-banking.png);}
+    33.2%{background-image: url(img/img5.png);}
+    41.5%{background-image: url(img/img6.png);}
+    49.8%{background-image: url(img/img7.png);}
+    58.1%{background-image: url(img/img8.png);}
+    66.4%{background-image: url(img/img9.png);}
+    74.7%{background-image: url(img/img10.png);}
+    83%{background-image: url(img/img11.png);}
+    91.3%{background-image: url(img/img12.png);}
+}
+
+.div04
+{
+    background-image: linear-gradient(
+        0deg,
+        rgba(24, 26, 48, 0.4),
+        rgba(24, 26, 48, 0.4)
+    )
+    ,url(https://img.freepik.com/foto-gratis/pagina-calendario-hoja-volteo-cerca-mesa-oficina-fondo-interior-concepto-reunion-planificacion-programacion-negocios_293060-4001.jpg?w=2000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 2.5%;
+}
+
+.div04 h1
+{
+    font-family: monospace;
+    font-size: 180%;
+    color: white;
+}
+
+.div04 h2
+{
+    font-family: calibri;
+    font-size: 160%;
+    color: #830c0c;
+}
+
+.div04 h3
+{
+    font-family: calibri;
+    font-size: 110%;
+    color: #0a0a0a;
+    width: 50%;
+}
+
+.div04 button
+{
+    text-decoration: none;
+    background-color: transparent;
+    padding: .7% 1%;
+    color: rgb(255, 255, 255);
+    font-family: verdana;
+    font-size: 80%;
+    border: 2px solid #e44d11;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .5s ease-in-out;
+}
+
+.div04 button:hover
+{
+    border-radius: 0px;
+    color: #ff9100;
+    box-shadow:
+    0 0 92px #ff9100
+}
+
+
+
+
+
+
+
+@media (min-width:0px) and (max-width: 900px)
+{
+        aside article
+    {
+        padding: 8% 10%;
+        text-align: center;
+        text-align: center;
+    }
+
+    .div01
+    {
+        padding: 0% 0%;
+    }
+
+    .div03 article
+    {
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: auto;
+        height: 25vh;
+        padding: 1% 7%;
+    }
+
+    .div04
+    {
+        padding: 4%;
+    }
+
+    .div04 button
+    {
+        padding: 2% 4%;
+    }
+    
+}
